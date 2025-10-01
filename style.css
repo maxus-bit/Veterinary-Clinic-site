@@ -1,0 +1,113 @@
+body {
+    font-family: "Gotham Pro", sans-serif;
+    font-size: 16px;
+    padding: 2% 2% 2% 2%;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    position: relative;
+    font-weight: 400;
+    font-size: 20px;
+    color: #A87574;
+    margin-top: -75px;
+    left: 28%;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.map {
+    position: relative;
+    text-align: right;
+    border: 2px #FF9D56 solid;
+    display: block;
+    padding: 20px;
+    margin-left: 93%;
+    border-radius: 20px;
+    margin-top: -65px;
+    color: #FF9D56;
+}
+
+.leftpanel {
+    margin-top: 100px;
+}
+
+.leftpanel ul li {
+    list-style-type: none;
+    margin-bottom: 50px;
+    color: #868686;
+    font-size: 20px;
+}
+
+.hero {}
+
+.hero h1 {
+    font-size: 74px;
+    font-weight: 600;
+    margin-left: 200px;
+    margin-top: -430px;
+}
+
+.hero h2 {
+    font-size: 74px;
+    font-weight: 300;
+    margin-left: 200px;
+    margin-top: -50px;
+}
+
+.hero p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 200px;
+    margin-top: -40px;
+}
+
+.btn button {
+    background: #fd7d7d;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    padding: 16px 56px;
+    font-size: 24px;
+    font-family: inherit;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 4px 8px #c97a7a26;
+    transition: background 0.2s, box-shadow 0.2s;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin-left: 200px;
+    margin-top: 14px;
+}
+
+.btn button:hover,
+.btn button:focus {
+    background: #fc6a6a;
+    box-shadow: 0 6px 16px #c97a7a44;
+}
+
+.links {
+    margin-top: 80px;
+    scale: 130%;
+}
+
+.links a {
+    margin-left: 380px;
+    margin-right: -350px;
+}
+
+.heroimg {
+    margin-left: 800px;
+    margin-top: -600px;
+    size: 400px;
+}
