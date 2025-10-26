@@ -3,11 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Друзі тварин - ветлікарня</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оформлення замовлення</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="scriptReg.js"></script>
 </head>
 
 <body>
+
     <header>
         <div class="logo">
             <img src="img/Logo.svg" alt="Logotype">
@@ -16,54 +19,40 @@
         <!--Навігація Початок-->
         <nav>
             <ul>
-                <li> <a href="#">Особистий кабінет</a></li>
-                <li> <a href="#">Про нас</a></li>
+                <li> <a href="/index.html">Особистий кабінет</a></li>
+                <li> <a href="/register.html">Замовити</a></li>
                 <li> <a href="#">Новини</a></li>
-                <li> <a href="#">Контакти</a></li>
+                <li> <a href="/about.html">Про нас</a></li>
                 <li> <a href="#">Блог</a></li>
             </ul>
         </nav>
         <!--Навігація Кінець-->
 
         <div class="konotop">
-            <span>КОНОТОП</span>
+            <a href="#"><span>КОНОТОП</span></a>
         </div>
     </header>
 
-    <main class="container">
-        <aside class="sidebar">
-            <ul>
-                <li class="active"><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-                <li><a href="#">5</a></li>
-                <li><a href="#">6</a></li>
-            </ul>
-        </aside>
 
-        <div class="content">
-            <div class="text-section">
-                <h1>ДРУЗІ ТВАРИН</h1>
-                <h2>цілодобова <br> ветлікарня</h2>
-                <p>Консультація онлайн та карта
-                    наших магазинів. <br> Підтримка тварин.</p>
+    <section class="container-gen">
+        <div class="hero-center">
+            <h1>Оформлення<br>замовлення</h1>
 
-                <button><a href="#">ЗАПИСАТИСЬ</a></button>
+            <div class="adds">
+                <h2>Знижка на перше<br>замовлення - <span>10%</span></h2>
+            </div>
+
+            <div class="hero-info">
+                <div class="inputs">
+                    <input type="text" placeholder="Костянтин Білон" class="nameFemale">
+                    <input type="text" placeholder="+380 96 121 12 12" class="numberPhone">
+                    <input type="text" placeholder="Опишіть проблему" class="problemed">
+
+                    <button>ЗАПИСАТИСЬ</button>
+                </div>
             </div>
         </div>
-
-        <div class="image-section">
-            <img src="img/DogCat.svg" alt="DogCat">
-        </div>
-
-        <div class="links">
-            <a href="#"><img src="img/inst.svg" alt="Instagram"></a>
-            <a href="#"><img src="img/Facebook.svg" alt="Facebook"></a>
-            <a href="#"><img src="img/Viber.svg" alt="Viber"></a>
-            <a href="#"><img src="img/YouTube.svg" alt="YouTube"></a>
-        </div>
-    </main>
+    </section>
 </body>
 
 </html>
