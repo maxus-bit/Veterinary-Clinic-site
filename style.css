@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     font-family: "Gotham Pro";
 }
@@ -46,6 +50,10 @@ nav a {
     letter-spacing: 1px;
 }
 
+nav a:hover {
+    color: #FF9D56;
+}
+
 .logo {
     width: 100px;
     margin-top: 13px;
@@ -59,6 +67,10 @@ nav a {
     align-items: center;
 }
 
+.konotop a {
+    text-decoration: none;
+}
+
 .konotop span {
     margin-right: 30px;
     padding-top: 15px;
@@ -69,7 +81,6 @@ nav a {
     border: solid 2px #FF9D56;
     color: #FF9D56;
 }
-
 
 
 .container {
@@ -141,54 +152,60 @@ nav a {
 }
 
 .text-section h1 {
-    font-size: 85px;
+    font-size: 110px;
     font-weight: 800;
     color: #45070A;
 }
 
 .text-section h2 {
-    font-size: 74px;
+    font-size: 95px;
     font-weight: 200;
     color: #45070A;
 }
 
 .text-section p {
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 200;
     color: #868686;
     margin-left: 5px;
     margin-top: 5px;
 }
 
+
+
 .text-section button {
+    position: absolute;
     padding: 20px 60px;
     background-color: #F86D70;
     border-radius: 28px;
-    margin-top: 49px;
+    margin-top: 80px;
     margin-left: 5px;
     border: solid 2px #F86D70;
     box-shadow:
         0px 4px 3px #B65254,
         0px 3px 8px #202020;
-}
-
-.text-section button a {
     font-size: 24px;
     font-weight: 600;
     text-decoration: none;
     color: #ffffff;
+    cursor: pointer;
+
+}
+
+.text-section button:hover {
+    padding: 25px 65px;
 }
 
 .image-section {
     position: absolute;
     display: flex;
     left: 48%;
-    bottom: -180px;
+    bottom: -420px;
 }
 
 .image-section img {
-    height: 1000px;
-    width: 1000px;
+    height: 1050px;
+    width: 1050px;
 }
 
 .container {
@@ -198,11 +215,145 @@ nav a {
 .links {
     display: flex;
     margin-left: 355px;
-    margin-top: 72px;
+    margin-top: 220px;
     gap: 35px;
+    position: absolute;
 }
 
 .links a img {
-    height: 51px;
-    width: 51px;
+    height: 71px;
+    width: 71px;
+}
+
+.links a img:hover {
+    height: 75px;
+    width: 75px;
+}
+
+
+
+
+
+.container-gen {
+    display: flex;
+    width: 600px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-center {
+    justify-content: center;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    border: solid 4px #F86D70;
+    padding: 170px 200px;
+    margin-left: 2300px;
+    margin-right: 700px;
+    margin-top: 300px;
+    border-radius: 50px;
+    margin-bottom: 100px;
+}
+
+.hero-center h1 {
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: -140px;
+    color: #45070A;
+}
+
+.hero-center .adds h2 {
+    border: solid 3px #45070A;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: #45070A;
+    background-color: #FF9D56;
+}
+
+.hero-center .adds span {
+    color: #ffffff;
+}
+
+.hero-info {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.inputs {}
+
+.nameFemale {
+    width: 440px;
+    height: 40px;
+    border: solid 2px #757575;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 100px;
+    font-size: 20px;
+    background-color: #e4e4e4;
+}
+
+.numberPhone {
+    width: 440px;
+    height: 40px;
+    border: solid 2px #757575;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 100px;
+    font-size: 20px;
+    background-color: #e4e4e4;
+    margin-top: 10px;
+}
+
+.problemed {
+    margin-top: 10px;
+    width: 440px;
+    height: 100px;
+    border: solid 2px #757575;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 100px;
+    font-size: 16px;
+    background-color: #e4e4e4;
+}
+
+.inputs button {
+    padding: 20px 60px;
+    background-color: #F86D70;
+    border-radius: 28px;
+    margin-top: 30px;
+    margin-right: 90px;
+    border: solid 2px #F86D70;
+    box-shadow:
+        0px 4px 3px #B65254,
+        0px 3px 8px #202020;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+.inputs input {
+    border: 3px solid #DCDCDC;
+
+    transition: border-color 0.3s ease;
+
+    background-color: #EBEBEB;
+    border-radius: 12px;
+    padding: 15px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-left: -35px;
+}
+
+.inputs input:focus {
+    border-color: #F3A953;
+    outline: none;
 }
